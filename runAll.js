@@ -1,6 +1,6 @@
 import { walk } from "https://deno.land/std/fs/walk.ts";
 
-const directories = ["./js-modulo-1"];
+const directories = ["./modulo-1"];
 
 for (const directory of directories) {
   console.log(`Searching for files in: ${directory}`);

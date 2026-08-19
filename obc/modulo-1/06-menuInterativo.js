@@ -7,7 +7,7 @@ do {
     2. Opção 2
     3. Opção 3
     4. Opção 4
-    5. Encerrar`)
+    5. Encerrar`),
   );
 
   switch (opcoes) {
@@ -24,10 +24,10 @@ do {
       console.log(`Você escolheu a opção ${opcoes}.`);
       break;
     case 5:
-      console.log("Programa encerrando...");
+      console.log('Programa encerrando...');
       break;
     default:
-      console.log("Opção inválida, tente novamente.");
+      console.log('Opção inválida, tente novamente.');
   }
 } while (opcoes !== 5);
 

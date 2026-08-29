@@ -3,5 +3,6 @@
   "editor.formatOnSave": true,
   "code-runner.executorMap": {
     "javascript": "deno run"
-  }
+  },
+  "code-runner.ignoreSelection": true
 }
